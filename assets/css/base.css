@@ -1,0 +1,60 @@
+:root {
+    --branco: #FFFFFF;
+    --branco-leve: #F0F0F0;
+    --preto: #000000;
+    --cinza: #CCCCCC;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.banner {
+    background: url(../img/banner.jpg) center / cover no-repeat;
+    width: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.banner__titulo {
+    color: var(--branco);
+    font-weight: bold;
+    margin: 0;
+    font-size: 10vw;
+    text-shadow: 5px 0 var(--preto), 0 5px var(--preto), 5px 0 var(--preto), 0 5px var(--preto);
+}
+
+@media screen and (min-width: 375px) { 
+    .banner {
+        height: 300px;
+    }
+
+    .banner__titulo {
+        padding-top: 10vh;
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) { 
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        height: calc(100vh - 100px);
+    }
+
+    .banner__titulo {
+        padding-top: 30vh;
+    }
+
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}

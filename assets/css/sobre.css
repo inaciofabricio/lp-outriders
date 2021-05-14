@@ -1,0 +1,31 @@
+.sobre-bloco {
+    background: linear-gradient(var(--branco), var(--cinza));
+}
+
+.sobre__titulo {
+    border-bottom: 2px solid var(--preto);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.sobre__paragrafo {
+    text-align: justify;
+}
+
+@media screen and (min-width: 375px) { 
+    .sobre-bloco {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) { 
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre-bloco {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}

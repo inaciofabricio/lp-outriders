@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Outriders</title>
+
+    <link rel="icon" type="image/icon" href="./assets/img/icon.png" sizes="32x32">
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/sobre.css">
+    <link rel="stylesheet" href="./assets/css/classes.css">
+    <link rel="stylesheet" href="./assets/css/devastador.css">
+    <link rel="stylesheet" href="./assets/css/piromante.css">
+    <link rel="stylesheet" href="./assets/css/tecnomante.css">
+    <link rel="stylesheet" href="./assets/css/trapaceiro.css">
+    <link rel="stylesheet" href="./assets/css/responsaveis.css">
+    <link rel="stylesheet" href="./assets/css/rodape.css">
+
+</head>
+<body>
+
+    <header class="container cabecalho">
+        <h1 class="cabecalho__logo">
+            <a href="#">
+                <img class="cabecalho__logo___imagem" src="./assets/img/logo.jpg" alt="Logo Outriders">
+            </a>
+        </h1>
+        <nav>
+            <ul class="menu">
+                <li class="menu__item">
+                    <a class="menu__item___link" href="#" data-menuLink01></a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__item___link" href="#sobre" data-menuLink02></a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__item___link" href="#classes" data-menuLink03></a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__item___link" href="#sobre" data-menuLink04></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="lingua">
+        <img class="lingua__item" id="pt-br" src="./assets/img/brasil-on.jpg" alt="Bandeira do Brasil">
+        <img class="lingua__item" id="en" src="./assets/img/eua-on.jpg" alt="Bandeira dos Estados Unidos">
+    </div>
+    
+    <main>    
+
+        <section class="banner">
+            <h1 class="banner__titulo" data-bannerTitulo></h1>
+        </section>
+
+        <section class="sobre-bloco container">  
+            <h2 class="sobre__titulo" data-sobreTitulo></h2>
+            <p class="sobre__paragrafo" data-sobreParagrafo01></p>
+            <p class="sobre__paragrafo" data-sobreParagrafo02></p>
+            <p class="sobre__paragrafo" data-sobreParagrafo03></p>
+            <p class="sobre__paragrafo" data-sobreParagrafo04></p>
+        </section>
+
+        <section id="classes" class="classes container" data-classes>
+            <h2 class="classes__titulo">
+                CLASSES
+            </h2>
+            <div class="classes__lista">
+                <a class="classes__link" href="#devastador" data-devastador>
+                    <img class="classes__link___imagem" src="./assets/img/devastador.jpg" alt="">
+                    <h3 class="classes__link___titulo" data-classe01></h3>
+                </a>
+                <a class="classes__link" href="#piromante" data-piromante>
+                    <img class="classes__link___imagem" src="./assets/img/piromante.jpg" alt="">
+                    <h3 class="classes__link___titulo" data-classe02></h3>
+                </a>
+                <a class="classes__link" href="#tecnomante" data-tecnomante>
+                    <img class="classes__link___imagem" src="./assets/img/tecnomante.jpg" alt="">
+                    <h3 class="classes__link___titulo" data-classe03></h3>
+                </a>
+                <a class="classes__link" href="#trapaceiro" data-trapaceiro>
+                    <img class="classes__link___imagem" src="./assets/img/trapaceiro.jpg" alt="">
+                    <h3 class="classes__link___titulo" data-classe04></h3>
+                </a>
+            </div>
+        </section>
+
+        <section id="devastador" class="devastador container">
+            <h2 class="devastador__titulo" data-devastadorTitulo></h2>
+            <div class="devastador__divisao">
+                <div class="devastador__divisao___video">
+                    <iframe class="devastador__divisao___video____iframe"
+                        src="https://www.youtube.com/embed/ZD9C52_Gxrs" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="devastador__divisao___descricao">
+                    <p data-devastadorParagrafo01></p>
+                    <p data-devastadorParagrafo02></p>
+                    <h3 data-devastadorSubTitulo></h3>
+                    <div class="devastador__divisao___habilidades">
+                        <div class="devastador__divisao___habilidades____imagem">
+                            <img src="./assets/img/devastador-habilidade-terremoto.png" alt="" data-altDevastadorHabilidade01>
+                            <h4 class="classes__link___titulo" data-devastadorHabilidade01></h4>
+                        </div>
+                        <div class="devastador__divisao___habilidades____imagem">
+                            <img src="./assets/img/devastador-habilidade-golem.png" alt="" data-altDevastadorHabilidade02>
+                            <h4 class="classes__link___titulo" data-devastadorHabilidade02></h4>
+                        </div>
+                        <div class="devastador__divisao___habilidades____imagem">
+                            <img src="./assets/img/devastador-habilidade-salto-de-gravidade.png" alt="" data-altDevastadorHabilidade03>
+                            <h4 class="classes__link___titulo" data-devastadorHabilidade03></h4>
+                        </div>
+                        <div class="devastador__divisao___habilidades____imagem">
+                            <img src="./assets/img/devastador-habilidade-reflete-balas.png" alt="" data-altDevastadorHabilidade04>
+                            <h4 class="classes__link___titulo" data-devastadorHabilidade04></h4>
+                        </div>
+                        <div class="devastador__divisao___habilidades____imagem">
+                            <img src="./assets/img/devastador-habilidade-empalar.png" alt="" data-altDevastadorHabilidade05>
+                            <h4 class="classes__link___titulo" data-devastadorHabilidade05></h4>
+                        </div>
+                        <div class="devastador__divisao___habilidades____imagem">
+                            <img src="./assets/img/devastador-habilidade-tremor.png" alt="" data-altDevastadorHabilidade06>
+                            <h4 class="classes__link___titulo" data-devastadorHabilidade06></h4>
+                        </div>
+                        <div class="devastador__divisao___habilidades____imagem">
+                            <img src="./assets/img/devastador-habilidade-investida-rochosa.png" alt="" data-altDevastadorHabilidade07>
+                            <h4 class="classes__link___titulo" data-devastadorHabilidade07></h4>
+                        </div>
+                        <div class="devastador__divisao___habilidades____imagem">
+                            <img src="./assets/img/devastador-habilidade-massa-infinita.png" alt="" data-altDevastadorHabilidade08>
+                            <h4 class="classes__link___titulo" data-devastadorHabilidade08></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="piromante" class="piromante container">
+            <h2 class="piromante__titulo" data-piromanteTitulo></h2>
+            <div class="piromante__divisao">
+                <div class="piromante__divisao___video">
+                    <iframe
+                        class="piromante__divisao___video____iframe"
+                        src="https://www.youtube.com/embed/cvlaoYHxzZQ" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="piromante__divisao___descricao">
+                    <p data-piromanteParagrafo01></p>
+                    <p data-piromanteParagrafo02></p>
+                    <h3 data-piromanteSubTitulo></h3>
+                    <div class="piromante__divisao___habilidades">
+                        <div class="piromante__divisao___habilidades____imagem">
+                            <img src="./assets/img/piromante-habilidade-onda-de-calor.png" alt="" data-altPiromanteHabilidade01>
+                            <h4 class="classes__link___titulo" data-piromanteHabilidade01></h4>
+                        </div>
+                        <div class="piromante__divisao___habilidades____imagem">
+                            <img src="./assets/img/piromante-habilidade-chama-viva.png" alt="" data-altPiromanteHabilidade02>
+                            <h4 class="classes__link___titulo" id="piromanteHabilidade02" data-piromanteHabilidade02></h4>
+                        </div>
+                        <div class="piromante__divisao___habilidades____imagem">
+                            <img src="./assets/img/piromante-habilidade-bomba-termica.png" alt="" data-altPiromanteHabilidade03>
+                            <h4 class="classes__link___titulo" data-piromanteHabilidade03></h4>
+                        </div>
+                        <div class="piromante__divisao___habilidades____imagem">
+                            <img src="./assets/img/piromante-habilidade-superaquecer.png" alt="" data-altPiromanteHabilidade04>
+                            <h4 class="classes__link___titulo" data-piromanteHabilidade04></h4>
+                        </div>
+                        <div class="piromante__divisao___habilidades____imagem">
+                            <img src="./assets/img/piromante-habilidade-projeteis-vulcanicos.png" alt="" data-altPiromanteHabilidade05>
+                            <h4 class="classes__link___titulo" data-piromanteHabilidade05></h4>
+                        </div>
+                        <div class="piromante__divisao___habilidades____imagem">
+                            <img src="./assets/img/piromante-habilidade-rajada-de-cinzas.png" alt="" data-altPiromanteHabilidade06>
+                            <h4 class="classes__link___titulo" data-piromanteHabilidade06></h4>
+                        </div>
+                        <div class="piromante__divisao___habilidades____imagem">
+                            <img src="./assets/img/piromante-habilidade-feixe-FASER.png" alt="" data-altPiromanteHabilidade07>
+                            <h4 class="classes__link___titulo" data-piromanteHabilidade07></h4>
+                        </div>
+                        <div class="piromante__divisao___habilidades____imagem">
+                            <img src="./assets/img/piromante-habilidade-erupcao.png" alt="" data-altPiromanteHabilidade08>
+                            <h4 class="classes__link___titulo" data-piromanteHabilidade08></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnomante" class="tecnomante container">
+            <h2 class="tecnomante__titulo" data-tecnomanteTitulo></h2>
+            <div class="tecnomante__divisao">
+                <div class="tecnomante__divisao___video">
+                    <iframe
+                        class="tecnomante__divisao___video____iframe" 
+                        src="https://www.youtube.com/embed/JwDZWrhBJiU" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="tecnomante__divisao___descricao">
+                    <p data-tecnomanteParagrafo01></p>
+                    <p data-tecnomanteParagrafo02></p>
+                    <h3 data-tecnomanteSubTitulo></h3>
+                    <div class="tecnomante__divisao___habilidades">
+                        <div class="tecnomante__divisao___habilidades____imagem">
+                            <img src="./assets/img/tecnomante-habilidade-estilhaco.png" alt="" data-altTecnomanteHabilidade01>
+                            <h4 class="classes__link___titulo" data-tecnomanteHabilidade01></h4>
+                        </div>
+                        <div class="tecnomante__divisao___habilidades____imagem">
+                            <img src="./assets/img/tecnomante-habilidade-torre-criogenica.png" alt="" data-altTecnomanteHabilidade02>
+                            <h4 class="classes__link___titulo" data-tecnomanteHabilidade02></h4>
+                        </div>
+                        <div class="tecnomante__divisao___habilidades____imagem">
+                            <img src="./assets/img/tecnomante-habilidade-lanca-dor.png" alt="" data-altTecnomanteHabilidade03>
+                            <h4 class="classes__link___titulo" data-tecnomanteHabilidade03></h4>
+                        </div>
+                        <div class="tecnomante__divisao___habilidades____imagem">
+                            <img src="./assets/img/tecnomante-habilidade-municao-pestilenta.png" alt="" data-altTecnomanteHabilidade04>
+                            <h4 class="classes__link___titulo" data-tecnomanteHabilidade04></h4>
+                        </div>
+                        <div class="tecnomante__divisao___habilidades____imagem">
+                            <img src="./assets/img/tecnomante-habilidade-ferramenta-de-destruicao.png" alt="" data-altTecnomanteHabilidade05>
+                            <h4 class="classes__link___titulo" data-tecnomanteHabilidade05></h4>
+                        </div>
+                        <div class="tecnomante__divisao___habilidades____imagem">
+                            <img src="./assets/img/tecnomante-habilidade-onda-restauradora.png" alt="" data-altTecnomanteHabilidade06>
+                            <h4 class="classes__link___titulo" data-tecnomanteHabilidade06></h4>
+                        </div>
+                        <div class="tecnomante__divisao___habilidades____imagem">
+                            <img src="./assets/img/tecnomante-habilidade-onda-de-frio.png" alt="" data-altTecnomanteHabilidade07>
+                            <h4 class="classes__link___titulo" data-tecnomanteHabilidade07></h4>
+                        </div>
+                        <div class="tecnomante__divisao___habilidades____imagem">
+                            <img src="./assets/img/tecnomante-habilidade-torre-pestilenta.png" alt="" data-altTecnomanteHabilidade08>
+                            <h4 class="classes__link___titulo" data-tecnomanteHabilidade08></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="trapaceiro" class="trapaceiro container">
+            <h2 class="trapaceiro__titulo" data-trapaceiroTitulo></h2>
+            <div class="trapaceiro__divisao">
+                <div class="trapaceiro__divisao___video">
+                    <iframe
+                        class="trapaceiro__divisao___video____iframe"
+                        src="https://www.youtube.com/embed/k3_d3kN6dG4" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="trapaceiro__divisao___descricao">
+                    <p data-trapaceiroParagrafo01></p>
+                    <p data-trapaceiroParagrafo02></p>
+                    <h3 data-trapaceiroSubTitulo></h3>
+                    <div class="trapaceiro__divisao___habilidades">
+                        <div class="trapaceiro__divisao___habilidades____imagem">
+                            <img src="./assets/img/trapaceiro-temporal-blade.png" alt="" data-altTrapaceiroHabilidade01>
+                            <h4 class="classes__link___titulo" data-trapaceiroHabilidade01></h4>
+                        </div>
+                        <div class="trapaceiro__divisao___habilidades____imagem">
+                            <img src="./assets/img/trapaceiro-slow-trap.png" alt="" data-altTrapaceiroHabilidade02>
+                            <h4 class="classes__link___titulo" data-trapaceiroHabilidade02></h4>
+                        </div>
+                        <div class="trapaceiro__divisao___habilidades____imagem">
+                            <img src="./assets/img/trapaceiro-hunt-the-prey.png" alt="" data-altTrapaceiroHabilidade03>
+                            <h4 class="classes__link___titulo" data-trapaceiroHabilidade03></h4>
+                        </div>
+                        <div class="trapaceiro__divisao___habilidades____imagem">
+                            <img src="./assets/img/trapaceiro-twisted-rounds.png" alt="" data-altTrapaceiroHabilidade04>
+                            <h4 class="classes__link___titulo" data-trapaceiroHabilidade04></h4>
+                        </div>
+                        <div class="trapaceiro__divisao___habilidades____imagem">
+                            <img src="./assets/img/trapaceiro-cyclone-slice.png" alt="" data-altTrapaceiroHabilidade05>
+                            <h4 class="classes__link___titulo" data-trapaceiroHabilidade05></h4>
+                        </div>
+                        <div class="trapaceiro__divisao___habilidades____imagem">
+                            <img src="./assets/img/trapaceiro-borrowed-time.png" alt="" data-altTrapaceiroHabilidade06>
+                            <h4 class="classes__link___titulo" data-trapaceiroHabilidade06></h4>
+                        </div>
+                        <div class="trapaceiro__divisao___habilidades____imagem">
+                            <img src="./assets/img/trapaceiro-venators-knife.png" alt="" data-altTrapaceiroHabilidade07>
+                            <h4 class="classes__link___titulo" data-trapaceiroHabilidade07></h4>
+                        </div>
+                        <div class="trapaceiro__divisao___habilidades____imagem">
+                            <img src="./assets/img/trapaceiro-time-rift.png" alt="" data-altTrapaceiroHabilidade08>
+                            <h4 class="classes__link___titulo" data-trapaceiroHabilidade08></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <section class="responsaveis container">
+            <h2 class="responsaveis__titulo" data-responsaveisTitulo></h2>
+            <div class="responsaveis__divisao">
+                <div class="responsaveis__divisao___item">
+                    <h3 data-responsaveisDesenvolvedora></h3>
+                    <img src="./assets/img/people-can-fly.jpg" alt="Logo da empresa People Can Fly">
+                </div>
+                <div class="responsaveis__divisao___item">
+                    <h3 data-responsaveisEditora></h3>
+                    <img src="./assets/img/square-enix.jpg" alt="Logo da empresa da Square Enix">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape container">
+        <div class="rodape__divisao">
+            <img class="rodape__divisao___imagem" src="./assets/img/logo-outriders.png" alt="Logo Outrider">
+            <div class="rodape__divisao___redes-sociais">
+                <a class="rodape__divisao___redes-sociais____link" href="https://www.youtube.com/channel/UCyHurXEuoMCfah2bmyRRXZw" target="_blank">
+                    <img src="./assets/img/youtube.png" alt="Logo Youtube">
+                </a>
+                <a class="rodape__divisao___redes-sociais____link" href="https://twitter.com/Outriders" target="_blank">
+                    <img src="./assets/img/twitter.png" alt="Logo Twitter">
+                </a>
+                <a class="rodape__divisao___redes-sociais____link" href="https://facebook.com/outridersgame" target="_blank">
+                    <img src="./assets/img/facebook.png" alt="Logo Facebook">
+                </a>
+                <a class="rodape__divisao___redes-sociais____link" href="https://discord.gg/outriders" target="_blank">
+                    <img src="./assets/img/reddit.png" alt="Logo Reddit">
+                </a>
+                <a class="rodape__divisao___redes-sociais____link" href="https://www.instagram.com/outridersgame/" target="_blank">
+                    <img src="./assets/img/instagram.png" alt="Logo Instagram">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/i18n.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+    <script>
+        
+    
+    </script>
+</body>
+</html>
